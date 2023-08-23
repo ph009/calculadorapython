@@ -18,7 +18,7 @@ def main():
             print('OPERACAO INVALIDA! TENTE NOVAMENTE')
         else:
             os.system('cls' if os.name == 'nt' else 'clear')
-            print('Digite um numero para ser calculado, se quiser resetar a calculadora aperte enter sem digitar nada')
+            print('Digite um numero para ser calculado, se quiser sair da calculadora aperte enter sem digitar nada')
 
     while ativo == True:
         if op == '+':
